@@ -1,0 +1,52 @@
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.thumbnail-name-and-genre-container {
+  display: flex;
+}
+.track-thumbnail {
+  width: 150px;
+  height: 100px;
+}
+
+.name-and-genre-container {
+  margin-left: 15px;
+}
+
+.name {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+.genre {
+  color: #3b82f6;
+  font-size: 18px;
+}
+.duration-and-delete-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+}
+.duration {
+  color: #ffffff;
+}
+.delete-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.no-song-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.heading {
+  color: #ffffff;
+  margin-top: 150px;
+}
